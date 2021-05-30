@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "VismaBookLibrary/1.0.0": {
+        "dependencies": {
+          "LogicLayer": "1.0.0"
+        },
+        "runtime": {
+          "VismaBookLibrary.dll": {}
+        }
+      },
+      "LogicLayer/1.0.0": {
+        "dependencies": {
+          "ModelLayer": "1.0.0"
+        },
+        "runtime": {
+          "LogicLayer.dll": {}
+        }
+      },
+      "ModelLayer/1.0.0": {
+        "runtime": {
+          "ModelLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VismaBookLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogicLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
